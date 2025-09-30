@@ -4,8 +4,8 @@
 
 ---@type ChadrcConfig
 local M = {}
-
 M.base46 = {
+
   theme = "catppuccin",
 
   hl_override = {
@@ -13,7 +13,7 @@ M.base46 = {
     ["@comment"] = { italic = true },
   },
 
-  transparency = true,
+  -- transparency = true,
 }
 
 M.nvdash = { load_on_startup = true }
@@ -22,4 +22,5 @@ M.ui = {
     lazyload = false,
   },
 }
+
 return M
