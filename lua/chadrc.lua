@@ -20,5 +20,4 @@ M.ui = {
          lazyload = false
      }
 }
-
 return M
