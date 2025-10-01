@@ -16,5 +16,10 @@ map("n", "N", "Nzzzv", { desc = "Hold search word in the middle backwards" })
 
 map("x", "<leader>p", '"_dP', { desc = "Paste without removing buffer" })
 map({ "n", "v" }, "<leader>y", '"+y', { desc = "Yank to system clipboard" })
-map("n", "N", "Nzzzv", { desc = "Hold search word in the middle backwards" })
+
+map("n", "<leader><Tab>", "<cmd>tabnext<CR>", { desc = "Tab next" })
+map("n", "<leader><Tab><Shift>", "<cmd>tabprevious<CR>", { desc = "Tab prev" })
+map("n", "<leader>tn", "<cmd>tabnew<CR>", { desc = "Tab new" })
+map("n", "<leader>tw", "<cmd>tabclose<CR>", { desc = "Tab close" })
+
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
